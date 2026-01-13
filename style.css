@@ -84,3 +84,26 @@ h1 {
     background-color: white;
     color: cadetblue;
 }
+
+.choose-insect-btn img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.game-container {
+    position: relative;
+}
+
+.time, .score {
+    position: absolute;
+    top: 24px;
+}
+
+.time {
+    left: 20px;
+}
+
+.score {
+    right: 20px;
+}
