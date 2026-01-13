@@ -12,3 +12,19 @@ body {
     margin: 0;
     text-align: center;
 }
+
+a{
+    color: white;
+}
+
+h1 {
+    line-height: 1.4;
+}
+
+.btn{
+    border: 0;
+    background-color: white;
+    color: cadetblue;
+    padding: 15px 20px;
+    font-family: inherit;
+}
