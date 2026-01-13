@@ -57,3 +57,30 @@ h1 {
     width: 100vw;
     transition: margin 0.5s ease-out;
 }
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+.insects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.choose-insect-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    width: 150px;
+    height: 150px;
+}
+
+.choose-insect-btn:hover {
+    background-color: white;
+    color: cadetblue;
+}
